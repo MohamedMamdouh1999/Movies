@@ -318,21 +318,27 @@ let rePasswordInputTouched = false
 
 document.getElementById("nameInput").addEventListener("focus",_ =>{
     nameInputTouched = true
+    closeNav()
 })
 document.getElementById("emailInput").addEventListener("focus",_ =>{
     emailInputTouched = true
+    closeNav()
 })
 document.getElementById("phoneInput").addEventListener("focus",_ =>{
     phoneInputTouched = true
+    closeNav()
 })
 document.getElementById("ageInput").addEventListener("focus",_ =>{
     ageInputTouched = true
+    closeNav()
 })
 document.getElementById("passwordInput").addEventListener("focus",_ =>{
     passwordInputTouched = true
+    closeNav()
 })
 document.getElementById("rePasswordInput").addEventListener("focus",_ =>{
     rePasswordInputTouched = true
+    closeNav()
 })
 
 function valid(){
